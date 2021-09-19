@@ -13,6 +13,9 @@
 		1B46219926F763430015CCA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B46219826F763430015CCA7 /* Preview Assets.xcassets */; };
 		1B46219C26F763430015CCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B46219A26F763430015CCA7 /* LaunchScreen.storyboard */; };
 		1B4621AE26F76FA20015CCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4621AD26F76FA20015CCA7 /* Assets.xcassets */; };
+		1B4621B426F772CD0015CCA7 /* UIColor+ManageContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621B326F772CD0015CCA7 /* UIColor+ManageContacts.swift */; };
+		1B4621B626F773510015CCA7 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621B526F773510015CCA7 /* UIColor+Hex.swift */; };
+		1B4621B826F774940015CCA7 /* UIImage+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621B726F774940015CCA7 /* UIImage+Images.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1B46219B26F763430015CCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B46219D26F763430015CCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B4621AD26F76FA20015CCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B4621B326F772CD0015CCA7 /* UIColor+ManageContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ManageContacts.swift"; sourceTree = "<group>"; };
+		1B4621B526F773510015CCA7 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		1B4621B726F774940015CCA7 /* UIImage+Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Images.swift"; path = "../../../../../../../../../Applications/UIImage+Images.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +62,8 @@
 		1B46218E26F763420015CCA7 /* Manage contacts */ = {
 			isa = PBXGroup;
 			children = (
-				1B4621A326F764230015CCA7 /* ApplicationServices */,
 				1B4621A426F764330015CCA7 /* AssetsAndAppDelegates */,
-				1B4621A526F7645F0015CCA7 /* CustomHelpers */,
-				1B4621A626F765320015CCA7 /* Extensions */,
-				1B4621A726F7654B0015CCA7 /* UIComponents */,
+				1B4621B226F772C10015CCA7 /* Extensions */,
 				1B4621A826F7655A0015CCA7 /* UserStories */,
 				1B46219726F763430015CCA7 /* Preview Content */,
 			);
@@ -75,13 +78,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1B4621A326F764230015CCA7 /* ApplicationServices */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ApplicationServices;
-			sourceTree = "<group>";
-		};
 		1B4621A426F764330015CCA7 /* AssetsAndAppDelegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,33 +90,22 @@
 			path = AssetsAndAppDelegates;
 			sourceTree = "<group>";
 		};
-		1B4621A526F7645F0015CCA7 /* CustomHelpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CustomHelpers;
-			sourceTree = "<group>";
-		};
-		1B4621A626F765320015CCA7 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		1B4621A726F7654B0015CCA7 /* UIComponents */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIComponents;
-			sourceTree = "<group>";
-		};
 		1B4621A826F7655A0015CCA7 /* UserStories */ = {
 			isa = PBXGroup;
 			children = (
 				1B46219326F763420015CCA7 /* ContentView.swift */,
 			);
 			path = UserStories;
+			sourceTree = "<group>";
+		};
+		1B4621B226F772C10015CCA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B4621B326F772CD0015CCA7 /* UIColor+ManageContacts.swift */,
+				1B4621B526F773510015CCA7 /* UIColor+Hex.swift */,
+				1B4621B726F774940015CCA7 /* UIImage+Images.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +182,9 @@
 				1B46219026F763420015CCA7 /* AppDelegate.swift in Sources */,
 				1B46219226F763420015CCA7 /* SceneDelegate.swift in Sources */,
 				1B46219426F763420015CCA7 /* ContentView.swift in Sources */,
+				1B4621B426F772CD0015CCA7 /* UIColor+ManageContacts.swift in Sources */,
+				1B4621B626F773510015CCA7 /* UIColor+Hex.swift in Sources */,
+				1B4621B826F774940015CCA7 /* UIImage+Images.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
