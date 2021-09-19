@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State private var appState = AppStateData()
+    
     var body: some View {
         NavigationView {
             List {
                 Section(header: Text("Общие")) {
-                    NavigationLink(destination: EmptyView()) {
+                    NavigationLink(destination: AllContactsView()) {
                         HStack {
                             Image(systemName: "person.fill")
                             Text("Все контакты")
@@ -52,7 +55,6 @@ struct ContentView: View {
                         }
                     }
                 }
-
             }
             .listStyle(GroupedListStyle())
             .navigationBarTitle(Text("Manage contacts"))

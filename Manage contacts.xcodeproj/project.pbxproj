@@ -16,6 +16,9 @@
 		1B4621B426F772CD0015CCA7 /* UIColor+ManageContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621B326F772CD0015CCA7 /* UIColor+ManageContacts.swift */; };
 		1B4621B626F773510015CCA7 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621B526F773510015CCA7 /* UIColor+Hex.swift */; };
 		1B4621B826F774940015CCA7 /* UIImage+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621B726F774940015CCA7 /* UIImage+Images.swift */; };
+		1B4621BA26F77E7C0015CCA7 /* AllContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621B926F77E7C0015CCA7 /* AllContactsView.swift */; };
+		1B4621BC26F77F2E0015CCA7 /* CurrentContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621BB26F77F2E0015CCA7 /* CurrentContactView.swift */; };
+		1B4621C226F7812A0015CCA7 /* AppStateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4621C126F7812A0015CCA7 /* AppStateData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		1B4621B326F772CD0015CCA7 /* UIColor+ManageContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ManageContacts.swift"; sourceTree = "<group>"; };
 		1B4621B526F773510015CCA7 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		1B4621B726F774940015CCA7 /* UIImage+Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Images.swift"; path = "../../../../../../../../../Applications/UIImage+Images.swift"; sourceTree = "<group>"; };
+		1B4621B926F77E7C0015CCA7 /* AllContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContactsView.swift; sourceTree = "<group>"; };
+		1B4621BB26F77F2E0015CCA7 /* CurrentContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentContactView.swift; sourceTree = "<group>"; };
+		1B4621C126F7812A0015CCA7 /* AppStateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 		1B46218E26F763420015CCA7 /* Manage contacts */ = {
 			isa = PBXGroup;
 			children = (
+				1B4621BD26F780840015CCA7 /* ApplicationServices */,
 				1B4621A426F764330015CCA7 /* AssetsAndAppDelegates */,
 				1B4621B226F772C10015CCA7 /* Extensions */,
 				1B4621A826F7655A0015CCA7 /* UserStories */,
@@ -94,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				1B46219326F763420015CCA7 /* ContentView.swift */,
+				1B4621B926F77E7C0015CCA7 /* AllContactsView.swift */,
+				1B4621BB26F77F2E0015CCA7 /* CurrentContactView.swift */,
 			);
 			path = UserStories;
 			sourceTree = "<group>";
@@ -106,6 +115,22 @@
 				1B4621B726F774940015CCA7 /* UIImage+Images.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1B4621BD26F780840015CCA7 /* ApplicationServices */ = {
+			isa = PBXGroup;
+			children = (
+				1B4621C026F781160015CCA7 /* LocalStorage */,
+			);
+			path = ApplicationServices;
+			sourceTree = "<group>";
+		};
+		1B4621C026F781160015CCA7 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1B4621C126F7812A0015CCA7 /* AppStateData.swift */,
+			);
+			path = LocalStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B46219026F763420015CCA7 /* AppDelegate.swift in Sources */,
+				1B4621C226F7812A0015CCA7 /* AppStateData.swift in Sources */,
 				1B46219226F763420015CCA7 /* SceneDelegate.swift in Sources */,
 				1B46219426F763420015CCA7 /* ContentView.swift in Sources */,
+				1B4621BA26F77E7C0015CCA7 /* AllContactsView.swift in Sources */,
 				1B4621B426F772CD0015CCA7 /* UIColor+ManageContacts.swift in Sources */,
+				1B4621BC26F77F2E0015CCA7 /* CurrentContactView.swift in Sources */,
 				1B4621B626F773510015CCA7 /* UIColor+Hex.swift in Sources */,
 				1B4621B826F774940015CCA7 /* UIImage+Images.swift in Sources */,
 			);
